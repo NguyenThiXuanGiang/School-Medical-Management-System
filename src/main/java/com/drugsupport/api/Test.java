@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test {
 	@GetMapping(value="/test")
 	public String getString() {
+		
 		return "success merge";
 	}
 }
